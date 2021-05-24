@@ -1,0 +1,18 @@
+# config equal to eval_1
+MODEL:
+  NUM_CLASSES: 21
+INPUT:
+  IMAGE_SIZE: 300
+DATASETS:
+  TRAIN: ("voc_2007_trainval", "voc_2012_trainval")
+  TEST: ("clipart_train", "clipart_test", "clipart_traintest")
+SOLVER:
+# 1e-5 for 10k iter (overall total 70k iterations)
+  MAX_ITER: 70000
+  GAMMA: 0.1
+  BATCH_SIZE: 32
+  LR: 1e-5
+  MOMENTUM: 0.9
+  WEIGHT_DECAY: 5e-4
+
+OUTPUT_DIR: 'outputs/style_1'

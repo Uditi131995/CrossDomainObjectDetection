@@ -1,0 +1,18 @@
+MODEL:
+  NUM_CLASSES: 21
+INPUT:
+  IMAGE_SIZE: 300
+DATASETS:
+  TRAIN: ("voc_2007_trainval", "voc_2012_trainval")
+  TEST: ("clipart_train", "clipart_test")
+SOLVER:
+# 3e-4 for 40k iter, then continue  with 3e-5 for 20k iter (total 60k iterations)
+  MAX_ITER: 60000
+  LR_STEPS: [40000]
+  GAMMA: 0.1
+  BATCH_SIZE: 32
+  LR: 3e-4
+  MOMENTUM: 0.9
+  WEIGHT_DECAY: 5e-4
+
+OUTPUT_DIR: 'outputs/setup_2'
