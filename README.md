@@ -1,14 +1,13 @@
-# Cross Domain Object Detection using SSD
 
 # Cross-Domain Object Detection with Online Style Transfer in PyTorch
 
 The objective of this repository is to replicate and extend upon [Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation)](https://openaccess.thecvf.com/content_cvpr_2018/html/Inoue_Cross-Domain_Weakly-Supervised_Object_CVPR_2018_paper.html). The implementation is based upon [High quality, fast, modular reference implementation of SSD in PyTorch](https://github.com/lufficc/SSD) and [Unofficial pytorch implementation of AdaIN](https://github.com/naoto0804/pytorch-AdaIN). The results of this project can be found in our academic report paper [here](https://drive.google.com/file/d/1naaAcrRGMK7vxUmj_iRbpKZsqQLq5IpY/view?usp=sharing).
 
-<div align="center">
+<!-- <div align="center">
   <img src="figures/baseline.png" />
   <img src="figures/adain.png" />
   <p>Detection results before (baseline) and after (adain).</p>
-</div>
+</div> -->
 
 
 ## Setup
